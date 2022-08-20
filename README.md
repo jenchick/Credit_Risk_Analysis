@@ -61,7 +61,7 @@ Each model's results are summarized below.
 
 ![image](https://user-images.githubusercontent.com/102322707/185753962-28580559-a002-4bd3-8c87-adb4569e8971.png)
 
-The following chart indicates which data features most influenced credit risk determination in this model:
+The chart below indicates which data features most influenced credit risk determination in this model.  The top three features were loan amount, interest rate, and number of installments.
 
 ![image](https://user-images.githubusercontent.com/102322707/185754081-4dd54a8c-50d6-4e99-a692-288c5b2841ef.png)
 
