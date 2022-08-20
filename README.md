@@ -77,13 +77,13 @@ The following chart indicates which data features most influenced credit risk de
 ![image](https://user-images.githubusercontent.com/102322707/185754028-1e87c689-e791-49e8-a545-fe31e820bb28.png)
 
 ## Summary
-In order to determine how well a model is performing, it is best to determine a baseline score to compare the model against. I will surmise that a baseline score of 80% accuracy (selected in conjuction with the 80/20 rule) would be sufficient, especially since financial default is a costly matter.  The only model at or above 0.80 is the Easy Ensemble AdaBoost Classifier Model (0.93). The Balanced Random Forest Classifier Model was close to baseline with a score of 0.78.  
+In order to determine how well a model is performing, it is best to determine a baseline score to compare the model against. I will surmise that a baseline score of 80% accuracy (selected in conjunction with the 80/20 rule) would be sufficient, especially since financial default is a costly matter.  The only model at or above 0.80 is the Easy Ensemble AdaBoost Classifier Model (0.93). The Balanced Random Forest Classifier Model was close to baseline with a score of 0.78.  
 
 Because there is generally a trade-off in relation to a model's precision or recall, one must consider which is the most important in determining credit risk. Recall tends to be more important where "false negatives" are more costly than "false positives."  Precision is more important where "false positives" are more costly than "false negatives."  
 
 ![image](https://user-images.githubusercontent.com/102322707/185755958-4c89d25c-9a52-4e1d-85ac-9781615bd1bb.png)
 
-In the case of determining credit risk, I would imagine that false negatives, whereby a credit risk is not identified, would be the most costly scenario and therefore the most important (recall is most important).  A low recall score would be indicative of a large number of false negatives! The model with the best recall score was Model #6, the Easy Ensemble AdaBoost Classifier Model with a socre of 0.92.
+In the case of determining credit risk, I would imagine that false negatives, whereby a credit risk is not identified, would be the most costly scenario and therefore the most important (recall is most important).  A low recall score would be indicative of a large number of false negatives! The model with the best recall score was Model #6, the Easy Ensemble AdaBoost Classifier Model with a score of 0.92.
 
 It appears that all models struggled to produce a high precision score. The model with the highest precision score was Model #6, Easy Ensemble AdaBoost Classifier Model, with a score of 0.09.
 
